@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
-import DisplayHome from './Displayhome.jsx'
+import DisplayHome from './DisplayHome.jsx'
 import DisplayAlbum from './DisplayAlbum.jsx'
 import { useContext } from 'react'
 import { PlayerContext } from '../context/PlayerContext.jsx'
