@@ -1,8 +1,8 @@
 import React, { useContext } from 'react'
 import Navbar from './Navbar'
 import { useParams } from 'react-router-dom'
-import { assets } from '../assets/assets';
-import { PlayerContext } from '../context/PlayerContext';
+import { assets } from '../assets/assets.js';
+import { PlayerContext } from '../context/PlayerContext.jsx';
 import { useState } from 'react';
 import { useEffect } from 'react';
 

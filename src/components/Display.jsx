@@ -1,9 +1,9 @@
 import React, { useEffect, useRef } from 'react'
 import { Route, Routes, useLocation } from 'react-router-dom'
-import DisplayHome from './displayhome'
-import DisplayAlbum from './DisplayAlbum'
+import DisplayHome from './Displayhome.jsx'
+import DisplayAlbum from './DisplayAlbum.jsx'
 import { useContext } from 'react'
-import { PlayerContext } from '../context/PlayerContext'
+import { PlayerContext } from '../context/PlayerContext.jsx'
 
 const Display = () => {
 

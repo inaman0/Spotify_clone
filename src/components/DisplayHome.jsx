@@ -1,9 +1,9 @@
 import React from 'react'
-import Navbar from './Navbar'
-import AlbumItem from './AlbumItem'
-import SongItem from './SongItem'
+import Navbar from './Navbar.jsx'
+import AlbumItem from './AlbumItem.jsx'
+import SongItem from './SongItem.jsx'
 import { useContext } from 'react'
-import { PlayerContext } from '../context/PlayerContext'
+import { PlayerContext } from '../context/PlayerContext.jsx'
 const displayhome = () => {
   const {albumsData, songsData}=useContext(PlayerContext);
   return (
